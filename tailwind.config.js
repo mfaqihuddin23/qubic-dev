@@ -1,8 +1,23 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./assets/**/*.{html,js}",
+    "./index.html",
+  ],
   theme: {
-    extend: {},
+    container: {
+      center: true,
+      screens: {
+        xl: '1200px',
+        '2xl': '1200px',
+      },
+    },
+    extend: {
+      fontFamily: {
+        'anton': ['Anton', 'sans-serif'],
+        'jakarta': ['"Plus Jakarta Sans"', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
