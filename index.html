@@ -5,159 +5,173 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
   <link href="/assets/css/styles.css" rel="stylesheet">
 </head>
 <body>
   <nav class="">
-    <div class="max-w-[1267px] w-[95%] flex flex-wrap items-center justify-between mx-auto p-[25px] bg-indigo-800 bg-opacity-20 rounded-[15px] border border-indigo-400 backdrop-blur-[10px]">
-      <a href="#" class="flex items-center">
-        <img src="/assets/images/svg/img-logo-nav.svg" class="h-8 mr-3" alt="Flowbite Logo">
-      </a>
-      <div class="flex md:order-2">
-          <button type="button" class="px-5 py-3.5 bg-gradient-to-br from-fuchsia-400 to-indigo-600 rounded-[27px] justify-center items-center gap-2 flex text-white text-sm font-semibold font-jakarta">
+    
+  </nav>
+  <section class="hero pt-5">
+    <div class="w-full  max-w-[1440px] mx-auto relative">
+      <div class="max-w-[1267px] w-[95%] flex flex-wrap items-center justify-between mx-auto p-[25px] bg-indigo-800 bg-opacity-20 rounded-[15px] border border-indigo-400 backdrop-blur-[10px] mb-20">
+        <a href="#" class="flex items-center">
+          <img src="/assets/images/svg/img-logo-nav.svg" class="h-8 mr-3" alt="Flowbite Logo">
+        </a>
+        <div class="flex md:order-2">
+            <button type="button" class="px-5 py-3.5 cta-contact rounded-[27px] justify-center items-center gap-2 flex text-white text-sm font-semibold font-jakarta">
+              <img src="/assets/images/svg/img-logo-metamask.svg" alt="">
+              Metamask
+            </button>
+            <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+              <span class="sr-only">Open main menu</span>
+              <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+              </svg>
+          </button>
+        </div>
+        <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+          <ul class="flex flex-col font-medium font-jakarta md:flex-row gap-10">
+            <li>
+              <a href="#" class="text-white text-sm leading-tight" aria-current="page">Home</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-sm leading-tight">Pool Mining</a>
+            </li>
+            <li>
+              <a href="#" class="text-white text-sm leading-tight">FAQ</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="anim-container max-w-[990px] absolute -z-10 top-0 right-0">
+        <div id="lottie-hero"></div>
+      </div>
+      <div class="container ">
+        <div class="txt-wrap mb-16">
+          <div class="max-w-[588px] mb-5">
+            <span class="text-white text-[80px] font-anton font-normal uppercase leading-[96px]">Qubic Mining for True AI: </span><span class="text-primary-300 text-[80px] font-anton font-normal uppercase leading-[96px]">Shaping Tomorrow's Intelligence.</span>
+          </div>
+          <div class="max-w-[470px] text-white text-lg font-jakarta font-medium leading-[25.20px]">Our state-of-the art mining application is all you need to begin effortlessly mining Qubic. Download, Mine, and start earning today.</div>
+        </div>
+        <div class="max-w-[486px] bg-metamask shadow-inner border-opacity-25 justify-between items-center flex">
+          <div class="justify-start items-start gap-[50px] flex">
+            <div class="justify-start items-center gap-2 flex">
+              <div class="text-center text-white text-opacity-80 text-sm font-medium font-jakarta leading-tight">Login to your Metamask account</div>
+            </div>
+          </div>
+          <button type="button" class="px-5 py-3.5 cta-contact rounded-[27px] justify-center items-center gap-2 flex text-white text-sm font-semibold font-jakarta">
             <img src="/assets/images/svg/img-logo-metamask.svg" alt="">
             Metamask
           </button>
-          <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
-            <span class="sr-only">Open main menu</span>
-            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-            </svg>
-        </button>
       </div>
-      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
-        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
-          <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
-          </li>
-          <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
-          </li>
-          <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
-          </li>
-          <li>
-            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-  <section class="hero">
-    <div class="container">
-      <div class="txt-wrap">
-        <div class="max-w-[588px]">
-          <span class="text-white text-[80px] font-anton font-normal uppercase leading-[96px]">Qubic Mining for True AI: </span><span class="text-purple-300 text-[80px] font-anton font-normal uppercase leading-[96px]">Shaping Tomorrow's Intelligence.</span>
-        </div>
-        <div class="max-w-[470px] text-white text-lg font-jakarta font-medium leading-[25.20px]">Our state-of-the art mining application is all you need to begin effortlessly mining Qubic. Download, Mine, and start earning today.</div>
       </div>
     </div>
   </section>
-  <section class="about-us py-[100px]">
-    <div class="container">
-      <div class="text-wrap flex justify-between items-center mb-[77px]">
-        <div class="w-[490px] flex-col justify-start items-start gap-[5px] inline-flex">
-          <div class="w-[308px] text-pink-300 text-sm font-semibold font-jakarta uppercase tracking-wider">How it works</div>
-          <div class="w-[490px] text-white text-[54px] font-normal font-anton uppercase leading-[64.80px]">Crafting the Future of Bitcoin Mining</div>
+  <section class="about-us pt-[250px] pb-[100px]">
+    <div class="container pb-[100px]">
+      <div class="text-wrap flex justify-between items-center mb-40">
+        <div class="flex-col justify-start items-start gap-[5px] flex max-w-[490px]">
+          <div class="text-secondary-300 text-sm font-semibold font-jakarta uppercase tracking-wider">How it works</div>
+          <div class="text-white text-[54px] font-normal font-anton uppercase leading-[64.80px]">Crafting the Future of Bitcoin Mining</div>
         </div>
-        <div class="w-[482.89px] text-right text-white text-lg font-medium font-jakarta leading-[25.20px]">Founded by a team of visionary experts in AI and cryptocurrency, Cubic Solutions has been at the forefront of revolutionizing Bitcoin mining since</div>
+        <div class="max-w-[482.89px] text-right text-white text-lg font-medium font-jakarta leading-[25.20px]">Founded by a team of visionary experts in AI and cryptocurrency, Cubic Solutions has been at the forefront of revolutionizing Bitcoin mining since</div>
       </div>
-      <div class="w-[1198px] h-[494px] justify-center items-center gap-[23px] inline-flex">
-        <div class="w-96 h-[494px] relative">
-          <div class="left-[51px] top-[324.04px] absolute flex-col justify-start items-start inline-flex">
-            <div class="w-[167.71px] text-purple-400 text-[54px] font-normal font-['Anton'] uppercase leading-[64.80px]">01</div>
-            <div class="w-[167.71px] text-neutral-950 text-[42px] font-normal font-['Anton'] uppercase leading-[50.40px]">Connect</div>
+      <div class="justify-center items-center gap-[23px] inline-flex">
+        <div class="relative flex flex-col justify-end">
+          <div class="flex-col justify-start items-start flex px-[51px] py-[60px] gap-12 absolute">
+            <div id="lottie-connect"></div>
+            <div class="txt-wrap">
+              <div class="text-primary-400 text-[54px] font-normal font-anton uppercase leading-[64.80px]">01</div>
+              <div class="text-col-primary text-[42px] font-normal font-anton uppercase leading-[50.40px]">Connect</div>
+            </div>
           </div>
-          <img class="w-[358.81px] h-[301.32px] left-[12.60px] top-[-31.79px] absolute" src="https://via.placeholder.com/359x301" />
+          <img class="max-w-[358.81px]" src="/assets/images/svg/bg-item-about-us.svg" />
         </div>
-        <div class="w-96 h-[494px] relative">
-            <div class="left-[51px] top-[324.04px] absolute flex-col justify-start items-start inline-flex">
-              <div class="w-[167.71px] text-purple-400 text-[54px] font-normal font-['Anton'] uppercase leading-[64.80px]">02</div>
-              <div class="w-[203.46px] h-[44.96px] text-neutral-950 text-[42px] font-normal font-['Anton'] uppercase leading-[50.40px]">Mine</div>
+        <div class="relative flex flex-col justify-end">
+          <div class="flex-col justify-start items-start flex px-[51px] py-[60px] gap-12 absolute">
+            <div id="lottie-mine"></div>
+            <div class="txt-wrap">
+              <div class="text-primary-400 text-[54px] font-normal font-anton uppercase leading-[64.80px]">02</div>
+              <div class="text-col-primary text-[42px] font-normal font-anton uppercase leading-[50.40px]">Mine</div>
             </div>
-            <img class="w-[341.81px] h-[316.47px] left-[21.51px] top-[-20.33px] absolute" src="https://via.placeholder.com/342x316" />
+          </div>
+          <img class="max-w-[358.81px]" src="/assets/images/svg/bg-item-about-us.svg" />
         </div>
-        <div class="w-96 h-[494px] relative">
-            <div class="left-[51px] top-[324.04px] absolute flex-col justify-start items-start inline-flex">
-                <div class="w-[167.71px] text-purple-400 text-[54px] font-normal font-['Anton'] uppercase leading-[64.80px]">03</div>
-                <div class="w-[203.46px] h-[44.96px] text-neutral-950 text-[42px] font-normal font-['Anton'] uppercase leading-[50.40px]">Earn</div>
+        <div class="relative flex flex-col justify-end">
+          <div class="flex-col justify-start items-start flex px-[51px] py-[60px] gap-12 absolute">
+            <div id="lottie-earn"></div>
+            <div class="txt-wrap">
+              <div class="text-primary-400 text-[54px] font-normal font-anton uppercase leading-[64.80px]">03</div>
+              <div class="text-col-primary text-[42px] font-normal font-anton uppercase leading-[50.40px]">Earn</div>
             </div>
-            <img class="w-[329.29px] h-[291.13px] left-[27.36px] top-[-14.70px] absolute" src="https://via.placeholder.com/329x291" />
+          </div>
+          <img class="max-w-[358.81px]" src="/assets/images/svg/bg-item-about-us.svg" />
         </div>
       </div>
     </div>
-  </section>
-  <section class="separators"></section>
-  <section class="videos py-[100px]">
-    <div class="container">
+    <div class="separators"></div>
+    <div class="videos container py-[100px]">
       <div class="img-wrap">
         <img src="/assets/images/video-thumbnail.png" alt="">
       </div>
     </div>
-  </section>
-  <section class="slider mx-auto">
-    <img src="/assets/images/img-swiper.png" alt="">
-  </section>
-  <section class="our-services py-[100px]">
-    <div class="container">
+    <div class="slider mx-auto max-w[1440px]">
+      <img src="/assets/images/img-swiper.png" alt="">
+    </div>
+    <div class="our-services container pt-[100px]">
       <div class="flex justify-between">
         <div class="text-wrap">
-          <div class="w-[486px] h-[198px] flex-col justify-start items-start gap-[5px] inline-flex mb-[60px]">
-            <div class="w-[308px] text-pink-300 text-sm font-semibold font-['Plus Jakarta Sans'] uppercase tracking-wider">Services</div>
-            <div class="self-stretch h-[175px] flex-col justify-start items-start gap-5 flex">
-                <div class="self-stretch text-white text-[54px] font-normal font-['Anton'] uppercase leading-[64.80px]">Our AI-Powered Services</div>
-                <div class="self-stretch text-white text-lg font-medium font-['Plus Jakarta Sans'] leading-[25.20px]">Elevating Mining Efficiency and Performance</div>
+          <div class="flex-col justify-start items-start gap-[5px] flex max-w-[486px] mb-[60px]">
+            <div class="text-secondary-300 text-sm font-semibold font-jakarta uppercase tracking-wider">Services</div>
+            <div class="flex-col justify-start items-start gap-5 flex">
+              <div class="self-stretch text-white text-[54px] font-normal font-anton uppercase leading-[64.80px]">Our AI-Powered Services</div>
+              <div class="self-stretch text-white text-lg font-medium font-jakarta leading-[25.20px]">Elevating Mining Efficiency and Performance</div>
             </div>
           </div>
           <div class="flex flex-col gap-[30px] mb-[60px]">
-            <div class="w-[588px] h-[90px] justify-start items-start gap-[18px] inline-flex">
-              <div class="p-3 bg-pink-400 rounded-xl justify-center items-center flex">
-                  <div class="w-6 h-6 justify-center items-center flex">
-                      <div class="w-6 h-6 relative">
-                      </div>
-                  </div>
+            <div class="justify-start items-start gap-[18px] inline-flex">
+              <div class="p-3 bg-secondary-400 rounded-xl justify-center items-center flex">
+                <div class="w-6 h-6 justify-center items-center flex">
+                  <img src="/assets/images/svg/icon-like.svg" alt="">
+                </div>
               </div>
-              <div class="w-[522px] flex-col justify-start items-start gap-1.5 inline-flex">
-                  <div class="self-stretch text-white text-2xl font-bold font-['Plus Jakarta Sans'] leading-[33.60px]">Algorithm Optimization</div>
-                  <div class="self-stretch text-gray-400 text-lg font-medium font-['Plus Jakarta Sans'] leading-[25.20px]">Our AI-driven algorithm optimization service fine-tunes the mining algorithms.</div>
-              </div>
-            </div>
-            <div class="w-[588px] h-[90px] justify-start items-start gap-[18px] inline-flex">
-              <div class="p-3 bg-purple-400 rounded-xl justify-center items-center flex">
-                  <div class="w-6 h-6 justify-center items-center flex">
-                      <div class="w-6 h-6 relative">
-                      </div>
-                  </div>
-              </div>
-              <div class="w-[522px] flex-col justify-start items-start gap-1.5 inline-flex">
-                  <div class="self-stretch text-white text-2xl font-bold font-['Plus Jakarta Sans'] leading-[33.60px]">Predictive Maintenance</div>
-                  <div class="self-stretch text-gray-400 text-lg font-medium font-['Plus Jakarta Sans'] leading-[25.20px]">With advanced AI analytics, we predict when your mining hardware might require maintenance.</div>
+              <div class="flex-col justify-start items-start gap-1.5 flex max-w-[522px]">
+                <div class="self-stretch text-white text-2xl font-bold font-jakarta leading-[33.60px]">Algorithm Optimization</div>
+                <div class="self-stretch text-gray-400 text-lg font-medium font-jakarta leading-[25.20px]">Our AI-driven algorithm optimization service fine-tunes the mining algorithms.</div>
               </div>
             </div>
-            <div class="w-[588px] h-[90px] justify-start items-start gap-[18px] inline-flex">
+            <div class="justify-start items-start gap-[18px] inline-flex">
+              <div class="p-3 bg-primary-400 rounded-xl justify-center items-center flex">
+                <div class="w-6 h-6 justify-center items-center flex">
+                  <img src="/assets/images/svg/icon-magicpen.svg" alt="">
+                </div>
+              </div>
+              <div class="flex-col justify-start items-start gap-1.5 flex max-w-[522px]">
+                  <div class="self-stretch text-white text-2xl font-bold font-jakarta leading-[33.60px]">Predictive Maintenance</div>
+                  <div class="self-stretch text-gray-400 text-lg font-medium font-jakarta leading-[25.20px]">With advanced AI analytics, we predict when your mining hardware might require maintenance.</div>
+              </div>
+            </div>
+            <div class="justify-start items-start gap-[18px] inline-flex">
               <div class="p-3 bg-teal-200 rounded-xl justify-center items-center flex">
-                  <div class="w-6 h-6 justify-center items-center flex">
-                      <div class="w-6 h-6 relative">
-                      </div>
-                  </div>
+                <div class="w-6 h-6 justify-center items-center flex">
+                  <img src="/assets/images/svg/icon-menu-board.svg" alt="">
+                </div>
               </div>
-              <div class="w-[522px] flex-col justify-start items-start gap-1.5 inline-flex">
-                  <div class="self-stretch text-white text-2xl font-bold font-['Plus Jakarta Sans'] leading-[33.60px]">Efficiency Analysis and Enhancement</div>
-                  <div class="self-stretch text-gray-400 text-lg font-medium font-['Plus Jakarta Sans'] leading-[25.20px]">Our experts analyze your entire mining setup using AI-powered tools, identifying bottlenecks and inefficiencies.</div>
+              <div class="flex-col justify-start items-start gap-1.5 flex max-w-[522px]">
+                  <div class="self-stretch text-white text-2xl font-bold font-jakarta leading-[33.60px]">Efficiency Analysis and Enhancement</div>
+                  <div class="self-stretch text-gray-400 text-lg font-medium font-jakarta leading-[25.20px]">Our experts analyze your entire mining setup using AI-powered tools, identifying bottlenecks and inefficiencies.</div>
               </div>
             </div>
           </div>
           <div class="btn-wrap">
-            <div class="w-[182px] h-[54px] pl-[25px] pr-5 py-3.5 bg-gradient-to-br from-fuchsia-400 to-indigo-600 rounded shadow-inner border-2 justify-center items-center gap-1 inline-flex">
-              <div class="text-white text-base font-medium font-['Poppins']">Discover more</div>
-              <div class="w-6 h-6 justify-center items-center flex">
-                  <div class="grow shrink basis-0 self-stretch origin-top-left -rotate-45 justify-center items-center inline-flex">
-                      <div class="w-6 h-6 relative">
-                      </div>
-                  </div>
+            <button type="button" class="min-w-[182px] px-[25px] py-3.5 cta-contact rounded shadow-inner justify-center items-center gap-1 flex text-white text-sm font-semibold font-jakarta">
+              Discover more
+              <div class="w-6 h-6 relative">
+                <img src="/assets/images/svg/icon-arrow-right-top.svg" alt="">
               </div>
-            </div>
+            </button>
           </div>
         </div>
         <div class="img-wrap flex flex-col justify-center">
@@ -166,6 +180,10 @@
       </div>
     </div>
   </section>
+  <!-- <section class="separators"></section> -->
+  <!-- <section class=" py-[100px]"></section> -->
+  <!-- <section class="slider mx-auto"></section> -->
+  <!-- <section class="our-services py-[100px]"></section> -->
   <section class="mining-pool py-[100px]">
     <div class="container">
       <div class="text-white text-[42px] font-normal font-anton uppercase leading-[50.40px] mb-[30px]">Qubic mining block</div>
@@ -311,5 +329,11 @@
       </div>
     </div>
   </section>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js"></script>
+
+  <script src="/assets/js/anima.js"></script>
 </body>
 </html>

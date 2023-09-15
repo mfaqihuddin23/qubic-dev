@@ -5,11 +5,24 @@
 @layer base{
   body{
     background: linear-gradient(180deg, #0C0C0F 0%, #0B0C0C 100%);
-    @apply pt-5
   }
   .hero{
-    background-image: url('/assets/images/hero-images.png');
+    /* background-image: url('/assets/images/hero-images.png'); */
     @apply pt-20 pb-[129px] bg-no-repeat bg-right-top
+  }
+  .bg-metamask{
+    border-radius: 41px;
+    border: 2px solid #BFDFFF;
+    background: linear-gradient(117deg, rgba(56, 63, 75, 0.45) -10.25%, rgba(53, 58, 88, 0.45) 116.34%);
+    backdrop-filter: blur(5px);
+    padding: 10px 10px 10px 30px;
+  }
+  section.about-us{
+    background-image: url('/assets/images/bg-about.png');
+    @apply bg-top bg-no-repeat bg-cover
+  }
+  .bg-section{
+    background-image: linear-gradient(338deg, rgba(21, 22, 29, 0.35) 55.72%, rgba(53, 58, 88, 0.35) 95.98%);
   }
   .separators{
     background-image: url('/assets/images/svg/img-separators.svg');

@@ -50,11 +50,25 @@ module.exports = {
         400 :'#8895FE',
         800 :'#3B309D',
       },
+      'blue':{
+        200 :'#BFDFFF',
+        800 :'',
+      },
+      'gray':{
+        700 :'#383F4B',
+      },
+      'slate':{
+        700 :'#353A58',
+      },
+      'teal':{
+        200 :'#97FFE6',
+      }
     },
     extend: {
       fontFamily: {
         'anton': ['Anton', 'sans-serif'],
         'jakarta': ['"Plus Jakarta Sans"', 'sans-serif'],
+        'poppins': ['Poppins', 'sans-serif'],
       },
     },
   },
