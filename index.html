@@ -9,13 +9,41 @@
   <link href="/assets/css/styles.css" rel="stylesheet">
 </head>
 <body>
-  <section>
-    <div class="container">
-      <div class="h-[100px] relative bg-indigo-800 bg-opacity-20 rounded-[15px] border border-indigo-400 backdrop-blur-[10px]">
-        
+  <nav class="">
+    <div class="max-w-[1267px] w-[95%] flex flex-wrap items-center justify-between mx-auto p-[25px] bg-indigo-800 bg-opacity-20 rounded-[15px] border border-indigo-400 backdrop-blur-[10px]">
+      <a href="#" class="flex items-center">
+        <img src="/assets/images/svg/img-logo-nav.svg" class="h-8 mr-3" alt="Flowbite Logo">
+      </a>
+      <div class="flex md:order-2">
+          <button type="button" class="px-5 py-3.5 bg-gradient-to-br from-fuchsia-400 to-indigo-600 rounded-[27px] justify-center items-center gap-2 flex text-white text-sm font-semibold font-jakarta">
+            <img src="/assets/images/svg/img-logo-metamask.svg" alt="">
+            Metamask
+          </button>
+          <button data-collapse-toggle="navbar-sticky" type="button" class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-sticky" aria-expanded="false">
+            <span class="sr-only">Open main menu</span>
+            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+            </svg>
+        </button>
+      </div>
+      <div class="items-center justify-between hidden w-full md:flex md:w-auto md:order-1" id="navbar-sticky">
+        <ul class="flex flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">About</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Services</a>
+          </li>
+          <li>
+            <a href="#" class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+          </li>
+        </ul>
       </div>
     </div>
-  </section>
+  </nav>
   <section class="hero">
     <div class="container">
       <div class="txt-wrap">
@@ -241,6 +269,45 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+  </section>
+  <section class="footer py-[70px] bg-gradient-to-tl from-gray-700 to-slate-700">
+    <div class="container max-w-[1187px]">
+      <div class="img-wrap mb-[30px]">
+        <img src="/assets/images/svg/img-logo-footer.svg" alt="">
+      </div>
+      <div class="flex justify-between">
+        <div class="w-[385.81px] h-[172px] flex-col justify-start items-start gap-[30px] inline-flex">
+          <div class="w-[385.81px] text-white text-lg font-medium font-['Plus Jakarta Sans'] leading-[25.20px]">At Cubic Solutions, we merge the potential of artificial intelligence with the world of Bitcoin mining, paving the way for efficiency, innovation, and sustainable growth.</div>
+        </div>
+        <div class="w-[614px] h-[152px] justify-start items-start gap-[156px] inline-flex">
+          <div class="flex-col justify-start items-start gap-[104px] inline-flex">
+              <div class="text-white text-xl font-semibold font-['Plus Jakarta Sans'] underline leading-normal">About Us</div>
+              <div class="text-gray-400 text-xl font-semibold font-['Plus Jakarta Sans'] leading-normal">Buy Solutions</div>
+          </div>
+          <div class="flex-col justify-start items-start gap-[104px] inline-flex">
+              <div class="text-gray-400 text-xl font-semibold font-['Plus Jakarta Sans'] leading-normal">Product</div>
+              <div class="text-gray-400 text-xl font-semibold font-['Plus Jakarta Sans'] leading-normal">Download</div>
+          </div>
+          <div class="text-gray-400 text-xl font-semibold font-['Plus Jakarta Sans'] leading-normal">Contact</div>
+        </div>
+      </div>
+      <div class="flex">
+        <div class="w-[298px] h-[60px] flex-col justify-start items-start gap-1 inline-flex">
+          <div class="justify-start items-center gap-2.5 inline-flex">
+              <div class="text-white text-base font-medium font-['Plus Jakarta Sans'] leading-snug">Contact Us</div>
+              <div class="w-[27.69px] h-[18px] relative">
+                  <div class="w-[10.30px] h-[18px] left-[17.08px] top-0 absolute">
+                  </div>
+              </div>
+          </div>
+          <div class="text-white text-2xl font-bold font-['Plus Jakarta Sans'] leading-[33.60px]">Info@Qubicsolutions.com</div>
+        </div>
+      </div>
+      <div class="line h-[2px] bg-violet-200"></div>
+      <div class="trademark text-center">
+        <div class="text-violet-100 text-base font-medium font-['Plus Jakarta Sans'] leading-snug">© Qubicsolutions 2023. All rights reserved.</div>
       </div>
     </div>
   </section>

@@ -5,7 +5,7 @@
 @layer base{
   body{
     background: linear-gradient(180deg, #0C0C0F 0%, #0B0C0C 100%);
-    @apply py-5
+    @apply pt-5
   }
   .hero{
     background-image: url('/assets/images/hero-images.png');
