@@ -62,7 +62,10 @@ module.exports = {
       },
       'teal':{
         200 :'#97FFE6',
-      }
+      },
+      'violet':{
+        200 : '#DCD2F0'
+      },
     },
     extend: {
       fontFamily: {

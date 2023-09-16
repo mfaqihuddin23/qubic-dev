@@ -6,6 +6,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Plus+Jakarta+Sans:wght@200;300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
   <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
   <link href="/assets/css/styles.css" rel="stylesheet">
 </head>
@@ -20,7 +21,7 @@
           <img src="/assets/images/svg/img-logo-nav.svg" class="h-8 mr-3" alt="Flowbite Logo">
         </a>
         <div class="flex md:order-2">
-            <button type="button" class="px-5 py-3.5 cta-contact rounded-[27px] justify-center items-center gap-2 flex text-white text-sm font-semibold font-jakarta">
+            <button type="button" class="px-5 py-3.5 cta-page rounded-[27px] justify-center items-center gap-2 flex text-white text-sm font-semibold font-jakarta">
               <img src="/assets/images/svg/img-logo-metamask.svg" alt="">
               Metamask
             </button>
@@ -61,7 +62,7 @@
               <div class="text-center text-white text-opacity-80 text-sm font-medium font-jakarta leading-tight">Login to your Metamask account</div>
             </div>
           </div>
-          <button type="button" class="px-5 py-3.5 cta-contact rounded-[27px] justify-center items-center gap-2 flex text-white text-sm font-semibold font-jakarta">
+          <button type="button" class="px-5 py-3.5 cta-page rounded-[27px] justify-center items-center gap-2 flex text-white text-sm font-semibold font-jakarta">
             <img src="/assets/images/svg/img-logo-metamask.svg" alt="">
             Metamask
           </button>
@@ -69,7 +70,7 @@
       </div>
     </div>
   </section>
-  <section class="about-us pt-[250px] pb-[100px]">
+  <section class="about-us pt-[250px] pb-[100px] overflow-hidden">
     <div class="container pb-[100px]">
       <div class="text-wrap flex justify-between items-center mb-40">
         <div class="flex-col justify-start items-start gap-[5px] flex max-w-[490px]">
@@ -117,8 +118,39 @@
         <img src="/assets/images/video-thumbnail.png" alt="">
       </div>
     </div>
-    <div class="slider mx-auto max-w[1440px]">
-      <img src="/assets/images/img-swiper.png" alt="">
+    <div class="container mx-auto max-w[1440px] relative">
+      <!-- <div class="slider-overlay absolute w-full h-full z-50"></div> -->
+      <!-- Slider main container -->
+      <div class="swiper overflow-visible">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="/assets/images/svg/logo-square-cash.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/assets/images/svg/logo-cashapp.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/assets/images/svg/logo-stripe.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/assets/images/svg/logo-coinbase.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/assets/images/svg/logo-zelle.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/assets/images/svg/logo-revolute.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/assets/images/svg/logo-wise.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/assets/images/svg/logo-klarna.svg" alt=""></div>
+        </div>
+        
+      </div>
+      <div class="swiper1">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="/assets/images/svg/logo-square-cash.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/assets/images/svg/logo-cashapp.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/assets/images/svg/logo-stripe.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/assets/images/svg/logo-coinbase.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/assets/images/svg/logo-zelle.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/assets/images/svg/logo-revolute.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/assets/images/svg/logo-wise.svg" alt=""></div>
+          <div class="swiper-slide"><img src="/assets/images/svg/logo-klarna.svg" alt=""></div>
+        </div>
+        
+      </div>
     </div>
     <div class="our-services container pt-[100px]">
       <div class="flex justify-between">
@@ -166,7 +198,7 @@
             </div>
           </div>
           <div class="btn-wrap">
-            <button type="button" class="min-w-[182px] px-[25px] py-3.5 cta-contact rounded shadow-inner justify-center items-center gap-1 flex text-white text-sm font-semibold font-jakarta">
+            <button type="button" class="min-w-[182px] px-[25px] py-3.5 cta-page rounded shadow-inner justify-center items-center gap-1 flex text-white text-sm font-semibold font-jakarta">
               Discover more
               <div class="w-6 h-6 relative">
                 <img src="/assets/images/svg/icon-arrow-right-top.svg" alt="">
@@ -174,16 +206,10 @@
             </button>
           </div>
         </div>
-        <div class="img-wrap flex flex-col justify-center">
-          <img src="/assets/images/Qubic Illustration_section our service.png" alt="">
-        </div>
+        <div id="lottie-services"></div>
       </div>
     </div>
   </section>
-  <!-- <section class="separators"></section> -->
-  <!-- <section class=" py-[100px]"></section> -->
-  <!-- <section class="slider mx-auto"></section> -->
-  <!-- <section class="our-services py-[100px]"></section> -->
   <section class="mining-pool py-[100px]">
     <div class="container">
       <div class="text-white text-[42px] font-normal font-anton uppercase leading-[50.40px] mb-[30px]">Qubic mining block</div>
@@ -208,7 +234,7 @@
             </div>
           </div>
         </div>
-        <div class="txt-mining p-[50px] flex justify-between gap-[42px] bg-gradient-to-br from-white to-slate-300 rounded-[30px] relative z-20 -ml-[100px]">
+        <div class="txt-mining p-[50px] flex justify-between gap-[42px] relative z-20 -ml-[100px]">
           <div class="h-[172px] flex-col justify-start items-start gap-[50px] inline-flex">
             <div class="flex-col justify-start items-start gap-[5px] flex">
                 <div class="text-neutral-950 text-2xl font-bold font-['Plus Jakarta Sans'] leading-[33.60px]">45646</div>
@@ -270,62 +296,51 @@
   <section class="contact-us py-[100px]">
     <div class="container">
       <div class="flex items-center">
-        <div class="img-wrap">
-          <img src="/assets/images/Qubic Illustration_section contact us.png" alt="">
-        </div>
+        <div id="lottie-contact"></div>
         <div class="txt-wrap">
-          <div class="w-[486px]"><span class="text-white text-[80px] font-normal font-['Anton'] uppercase leading-[96px]">Reach Out for Inquiries</span><span class="text-white text-[80px] font-normal font-['Anton'] uppercase leading-[96px]"> </span><span class="text-purple-300 text-[80px] font-normal font-['Anton'] uppercase leading-[96px]">and Collaboration</span></div>
-          <div class="w-[280.22px] h-[120px] relative">
-            <div class="cta-contact h-[54px] pl-[25px] pr-5 py-3.5 left-[36.11px] top-[33px] absolute rounded shadow-inner border-2 justify-center items-center gap-1.5 inline-flex">
-                <div class="text-white text-2xl font-medium font-['Poppins']">Contact Us</div>
-                <div class="h-8 pb-[150.13px] justify-center items-center flex">
-                    <div class="grow shrink basis-0 h-8 origin-top-left -rotate-45 justify-center items-center inline-flex">
-                        <div class="w-8 h-8 relative">
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <div class="max-w-[486px] text-white text-[80px] font-normal font-anton uppercase leading-[96px] mb-[54px]">
+            <span class="">Reach Out for Inquiries</span>
+            <span class="text-primary-300">and Collaboration</span>
+          </div>
+          <div class="btn-wrap">
+            <button type="button" class="min-w-[182px] px-9 py-[33px] cta-contact rounded-xl shadow-inner justify-center items-center gap-1 flex text-white text-2xl font-medium font-poppins">
+              Contact us
+              <div class="w-6 h-6 relative">
+                <img src="/assets/images/svg/icon-arrow-right-top.svg" alt="">
+              </div>
+            </button>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section class="footer py-[70px] bg-gradient-to-tl from-gray-700 to-slate-700">
+  <section class="footer py-[70px]">
     <div class="container max-w-[1187px]">
       <div class="img-wrap mb-[30px]">
         <img src="/assets/images/svg/img-logo-footer.svg" alt="">
       </div>
       <div class="flex justify-between">
-        <div class="w-[385.81px] h-[172px] flex-col justify-start items-start gap-[30px] inline-flex">
-          <div class="w-[385.81px] text-white text-lg font-medium font-['Plus Jakarta Sans'] leading-[25.20px]">At Cubic Solutions, we merge the potential of artificial intelligence with the world of Bitcoin mining, paving the way for efficiency, innovation, and sustainable growth.</div>
-        </div>
-        <div class="w-[614px] h-[152px] justify-start items-start gap-[156px] inline-flex">
-          <div class="flex-col justify-start items-start gap-[104px] inline-flex">
-              <div class="text-white text-xl font-semibold font-['Plus Jakarta Sans'] underline leading-normal">About Us</div>
-              <div class="text-gray-400 text-xl font-semibold font-['Plus Jakarta Sans'] leading-normal">Buy Solutions</div>
-          </div>
-          <div class="flex-col justify-start items-start gap-[104px] inline-flex">
-              <div class="text-gray-400 text-xl font-semibold font-['Plus Jakarta Sans'] leading-normal">Product</div>
-              <div class="text-gray-400 text-xl font-semibold font-['Plus Jakarta Sans'] leading-normal">Download</div>
-          </div>
-          <div class="text-gray-400 text-xl font-semibold font-['Plus Jakarta Sans'] leading-normal">Contact</div>
+        <div class="max-w-[386px] text-white text-lg font-medium font-jakarta leading-[25.20px]">At Cubic Solutions, we merge the potential of artificial intelligence with the world of Bitcoin mining, paving the way for efficiency, innovation, and sustainable growth.</div>
+        <div class="max-w-[614px] grow grid grid-cols-3 text-xl font-semibold font-jakarta leading-normal gap-[100px]">
+          <a href="" class="text-col-secondary hover:text-white hover:underline" aria-current="">About Us</a>
+          <a href="" class="text-col-secondary hover:text-white hover:underline">Buy Solutions</a>
+          <a href="" class="text-col-secondary hover:text-white hover:underline">Product</a>
+          <a href="" class="text-col-secondary hover:text-white hover:underline">Download</a>
+          <a href="" class="text-col-secondary hover:text-white hover:underline">Contact</a>
         </div>
       </div>
-      <div class="flex">
-        <div class="w-[298px] h-[60px] flex-col justify-start items-start gap-1 inline-flex">
-          <div class="justify-start items-center gap-2.5 inline-flex">
-              <div class="text-white text-base font-medium font-['Plus Jakarta Sans'] leading-snug">Contact Us</div>
-              <div class="w-[27.69px] h-[18px] relative">
-                  <div class="w-[10.30px] h-[18px] left-[17.08px] top-0 absolute">
-                  </div>
-              </div>
+      <div class="txt-wrap mb-[49px]">
+        <div class="flex gap-2.5 mb-1">
+          <div class="text-white text-base font-medium font-jakarta leading-snug">Contact Us</div>
+          <div class="w-[27.69px] h-[18px] relative">
+            <img src="/assets/images/svg/icon-arrow-right.svg" alt="">
           </div>
-          <div class="text-white text-2xl font-bold font-['Plus Jakarta Sans'] leading-[33.60px]">Info@Qubicsolutions.com</div>
         </div>
+        <div class="text-white text-2xl font-bold font-jakarta leading-[33.60px]">Info@Qubicsolutions.com</div>
       </div>
-      <div class="line h-[2px] bg-violet-200"></div>
+      <div class="line h-[2px] bg-violet-200 mb-[35px]"></div>
       <div class="trademark text-center">
-        <div class="text-violet-100 text-base font-medium font-['Plus Jakarta Sans'] leading-snug">© Qubicsolutions 2023. All rights reserved.</div>
+        <div class="text-col-tertiary text-base font-medium font-jakarta leading-snug">© Qubicsolutions 2023. All rights reserved.</div>
       </div>
     </div>
   </section>
@@ -335,5 +350,6 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js"></script>
 
   <script src="/assets/js/anima.js"></script>
+  <script src="/assets/js/swiper-q.js"></script>
 </body>
 </html>

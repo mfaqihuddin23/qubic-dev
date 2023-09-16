@@ -26,3 +26,17 @@ lottie.loadAnimation({
   autoplay: true,
   path: '/assets/animations/anim-earn.json' // the path to the animation json
 });
+lottie.loadAnimation({
+  container: document.getElementById("lottie-services"), // the dom element that will contain the animation
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: '/assets/animations/our_service.json' // the path to the animation json
+});
+lottie.loadAnimation({
+  container: document.getElementById("lottie-contact"), // the dom element that will contain the animation
+  renderer: 'svg',
+  loop: true,
+  autoplay: true,
+  path: '/assets/animations/contact_us.json' // the path to the animation json
+});
