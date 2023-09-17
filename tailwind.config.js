@@ -66,6 +66,9 @@ module.exports = {
       'violet':{
         200 : '#DCD2F0'
       },
+      'green' :{
+        400 : '#45FF8F'
+      }
     },
     extend: {
       fontFamily: {

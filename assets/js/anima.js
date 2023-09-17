@@ -40,3 +40,13 @@ lottie.loadAnimation({
   autoplay: true,
   path: '/assets/animations/contact_us.json' // the path to the animation json
 });
+
+document.addEventListener("DOMContentLoaded", function() {
+  const toggleButton = document.getElementById("btn-nav");
+  const targetElement = document.getElementById("myNavbar");
+
+  toggleButton.addEventListener("click", function() {
+      // Toggle the "active" class on the target element
+      targetElement.classList.toggle("active");
+  });
+});
