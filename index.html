@@ -12,88 +12,98 @@
   <link href="/assets/css/styles.css" rel="stylesheet">
 </head>
 <body>
-  <section class="hero pt-5">
-    <div class="w-full  max-w-[1440px] mx-auto">
-      <div id="myNavbar" class="navbar max-w-[1267px] w-[90%] flex flex-wrap items-center justify-between mx-auto p-[25px] bg-indigo-800 bg-opacity-20 rounded-[15px] border border-indigo-400 backdrop-blur-[10px] mb-20">
-        <a href="#" class="flex items-center">
-          <img src="/assets/images/svg/img-logo-nav.svg" class="h-8 mr-3" alt="Qubicsolutions Logo">
-        </a>
-        <div class="flex lg:order-2">
-          <div class="cta-wrap hidden lg:flex justify-between items-center gap-3.5">
-            <button type="button" class="px-5 py-3.5 cta-page rounded-[27px] justify-center items-center gap-2 flex text-white text-sm font-semibold font-jakarta">
-              <img src="/assets/images/svg/img-logo-metamask.svg" alt="">
-              Metamask
-            </button>
-            <div class="txt-wrap">
-              <span class="text-white text-xl font-medium font-jakarta">1 </span>
-              <span class="text-green-400 text-sm font-semibold font-jakarta">GH/s</span>
-            </div>
-          </div>
-          <button data-collapse-toggle="navbar-sticky" type="button" id="btn-nav" class="nav-btn flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-white hover:bg-opacity-10" aria-controls="navbar-sticky" aria-expanded="false">
-            <span class="sr-only">Open main menu</span>
-            <svg class="w-5 h-5" aria-hidden="true" id="svg-open" class="svg-open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
-            </svg>
-            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="svg-close" viewBox="0 0 32 32" fill="none">
-              <path opacity="0.1" d="M21.5866 2.66675H10.4133C5.55996 2.66675 2.66663 5.56008 2.66663 10.4134V21.5734C2.66663 26.4401 5.55996 29.3334 10.4133 29.3334H21.5733C26.4266 29.3334 29.32 26.4401 29.32 21.5868V10.4134C29.3333 5.56008 26.44 2.66675 21.5866 2.66675Z" fill="white"/>
-              <path d="M21.4212 11.9929L11.9931 21.421C11.6066 21.8075 10.9655 21.8075 10.5789 21.421C10.1924 21.0344 10.1924 20.3933 10.5789 20.0068L20.007 10.5787C20.3936 10.1921 21.0347 10.1921 21.4212 10.5787C21.8078 10.9652 21.8078 11.6063 21.4212 11.9929Z" fill="white"/>
-              <path d="M20.007 21.421L10.5789 11.9929C10.1924 11.6064 10.1924 10.9652 10.5789 10.5787C10.9655 10.1921 11.6066 10.1921 11.9931 10.5787L21.4212 20.0068C21.8078 20.3933 21.8078 21.0344 21.4212 21.421C21.0347 21.8075 20.3935 21.8075 20.007 21.421Z" fill="white"/>
-            </svg>
-          </button>
-        </div>
-        <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1 mt-28 lg:mt-0" id="navbar-sticky">
-          <ul class="flex flex-col font-normal lg:font-medium font-anton lg:font-jakarta lg:flex-row gap-10 text-center lg:text-start">
-            <li>
-              <a href="#" class="text-white text-[42px] uppercase lg:normal-case lg:text-sm leading-tight" aria-current="page">Home</a>
-            </li>
-            <li>
-              <a href="#" class="text-white text-[42px] uppercase lg:normal-case lg:text-sm leading-tight">Pool Mining</a>
-            </li>
-            <li>
-              <a href="#" class="text-white text-[42px] uppercase lg:normal-case lg:text-sm leading-tight">FAQ</a>
-            </li>
-            <li>
-              <div class="cta-wrap lg:hidden flex flex-col-reverse justify-between items-center gap-3.5 mt-[120px]">
-                <button type="button" class="px-5 py-3.5 cta-page rounded-[27px] justify-center items-center gap-2 flex text-white text-sm font-semibold font-jakarta">
-                  <img src="/assets/images/svg/img-logo-metamask.svg" alt="">
-                  Metamask
-                </button>
-                <div class="txt-wrap">
-                  <span class="text-white text-xl font-medium font-jakarta">1 </span>
-                  <span class="text-green-400 text-sm font-semibold font-jakarta">GH/s</span>
-                </div>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </div>
-      <div class="anim-container max-w-[990px] absolute -z-10 top-0 right-0">
-        <div id="lottie-hero"></div>
-      </div>
-      <div class="container mt-[280px] lg:mt-0">
-        <div class="txt-wrap mb-10 lg:mb-16">
-          <div class="max-w-[588px] mb-4 lg:mb-5 text-[40px] lg:text-[80px] font-anton font-normal uppercase leading-[120%]">
-            <span class="text-white ">Qubic Mining for True AI: </span>
-            <span class="text-primary-300 ">Shaping Tomorrow's Intelligence.</span>
-          </div>
-          <div class="max-w-[470px] text-white text-lg font-jakarta font-medium leading-[25.20px]">Our state-of-the art mining application is all you need to begin effortlessly mining Qubic. Download, Mine, and start earning today.</div>
-        </div>
-        <div class="max-w-[486px] bg-metamask shadow-inner border-opacity-25 justify-between items-center flex">
-          <div class="justify-start items-start gap-[50px] flex">
-            <div class="justify-start items-center gap-2 flex">
-              <div class="text-center text-white text-opacity-80 text-sm font-medium font-jakarta leading-tight">Login to your Metamask account</div>
-            </div>
-          </div>
+  <section class="hero pt-5 overflow-hidden">
+    <div id="myNavbar" class="navbar max-w-[1267px] w-[90%] flex flex-wrap items-center justify-between mx-auto p-3.5 lg:p-[25px] bg-indigo-800 bg-opacity-20 rounded-[15px] border border-indigo-400 backdrop-blur-[10px]">
+      <a href="#" class="flex items-center gap-2">
+        <img src="/assets/images/svg/logo-qubic.svg" class="" alt="Qubicsolutions Logo">
+        <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+      </a>
+      <div class="flex lg:order-2">
+        <div class="cta-wrap hidden lg:flex justify-between items-center gap-3.5">
           <button type="button" class="px-5 py-3.5 cta-page rounded-[27px] justify-center items-center gap-2 flex text-white text-sm font-semibold font-jakarta">
             <img src="/assets/images/svg/img-logo-metamask.svg" alt="">
             Metamask
           </button>
+          <div class="txt-wrap">
+            <span class="text-white text-xl font-medium font-jakarta">1 </span>
+            <span class="text-green-400 text-sm font-semibold font-jakarta">GH/s</span>
+          </div>
+        </div>
+        <button data-collapse-toggle="navbar-sticky" type="button" id="btn-nav" class="nav-btn flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-white hover:bg-opacity-10" aria-controls="navbar-sticky" aria-expanded="false">
+          <span class="sr-only">Open main menu</span>
+          <svg class="w-5 h-5" aria-hidden="true" id="svg-open" class="svg-open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
+            <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="svg-close" viewBox="0 0 32 32" fill="none">
+            <path opacity="0.1" d="M21.5866 2.66675H10.4133C5.55996 2.66675 2.66663 5.56008 2.66663 10.4134V21.5734C2.66663 26.4401 5.55996 29.3334 10.4133 29.3334H21.5733C26.4266 29.3334 29.32 26.4401 29.32 21.5868V10.4134C29.3333 5.56008 26.44 2.66675 21.5866 2.66675Z" fill="white"/>
+            <path d="M21.4212 11.9929L11.9931 21.421C11.6066 21.8075 10.9655 21.8075 10.5789 21.421C10.1924 21.0344 10.1924 20.3933 10.5789 20.0068L20.007 10.5787C20.3936 10.1921 21.0347 10.1921 21.4212 10.5787C21.8078 10.9652 21.8078 11.6063 21.4212 11.9929Z" fill="white"/>
+            <path d="M20.007 21.421L10.5789 11.9929C10.1924 11.6064 10.1924 10.9652 10.5789 10.5787C10.9655 10.1921 11.6066 10.1921 11.9931 10.5787L21.4212 20.0068C21.8078 20.3933 21.8078 21.0344 21.4212 21.421C21.0347 21.8075 20.3935 21.8075 20.007 21.421Z" fill="white"/>
+          </svg>
+        </button>
       </div>
+      <div class="items-center justify-between hidden w-full lg:flex lg:w-auto lg:order-1 mt-28 lg:mt-0" id="navbar-sticky">
+        <ul class="flex flex-col font-normal lg:font-medium font-anton lg:font-jakarta lg:flex-row gap-10 text-center lg:text-start">
+          <li>
+            <a href="#" class="text-white text-[42px] uppercase lg:normal-case lg:text-sm leading-tight" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="text-white text-[42px] uppercase lg:normal-case lg:text-sm leading-tight">Pool Mining</a>
+          </li>
+          <li>
+            <a href="#" class="text-white text-[42px] uppercase lg:normal-case lg:text-sm leading-tight">FAQ</a>
+          </li>
+          <li>
+            <div class="cta-wrap lg:hidden flex flex-col-reverse justify-between items-center gap-3.5 mt-[120px]">
+              <button type="button" class="px-5 py-3.5 cta-page rounded-[27px] justify-center items-center gap-2 flex text-white text-sm font-semibold font-jakarta">
+                <img src="/assets/images/svg/img-logo-metamask.svg" alt="">
+                Metamask
+              </button>
+              <div class="txt-wrap">
+                <span class="text-white text-xl font-medium font-jakarta">1 </span>
+                <span class="text-green-400 text-sm font-semibold font-jakarta">GH/s</span>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="container relative">
+      <div class="flex  flex-col-reverse lg:flex-row justify-between">
+        <div class="hero-content -mt-24 lg:mt-0 lg:pt-20">
+          <div class="txt-wrap mb-10 lg:mb-16">
+            <div class="max-w-[588px] mb-4 lg:mb-5 text-[40px] lg:text-[80px] font-anton font-normal uppercase leading-[120%]">
+              <span class="text-white ">Qubic Mining for True AI: </span>
+              <span class="text-primary-300 ">Shaping Tomorrow's Intelligence.</span>
+            </div>
+            <div class="max-w-[470px] text-white text-sm lg:text-lg font-jakarta font-medium leading-[25.20px]">Our state-of-the art mining application is all you need to begin effortlessly mining Qubic. Download, Mine, and start earning today.</div>
+          </div>
+          <form action="" class="max-w-[486px] mx-auto">
+            <div class="bg-metamask shadow-inner border-opacity-25 justify-between items-center flex mb-3.5">
+              <!-- <div class="justify-start items-start gap-[50px] flex">
+                <div class="justify-start items-center gap-2 flex w-full">
+                  <div class="text-center text-white text-opacity-80 text-sm font-medium font-jakarta leading-tight">Login to your Metamask account</div>
+                </div>
+              </div> -->
+              <input type="text" id="input-group-1" class="bg-transparent border-0 w-full text-white text-center lg:text-start text-opacity-80 text-sm font-medium font-jakarta leading-tight" placeholder="Login to your Metamask account">
+              <button type="button" class="hidden px-5 py-3.5 cta-page rounded-[27px] shrink-0 justify-center items-center gap-2 lg:flex text-white text-sm font-semibold font-jakarta">
+                <img src="/assets/images/svg/img-logo-metamask.svg" alt="">
+                Metamask
+              </button>
+            </div>
+            <button type="button" class="w-full px-5 py-3.5 cta-page rounded-[27px] shrink-0 justify-center items-center gap-2 flex lg:hidden text-white text-sm font-semibold font-jakarta">
+              <img src="/assets/images/svg/img-logo-metamask.svg" alt="">
+              Metamask
+            </button>
+          </form>
+        </div>
+        <div class="anim-container flex justify-center max-w-[850px] relative lg:absolute -z-10 top-0 lg:right-0">
+          <div id="lottie-hero"></div>
+        </div>
       </div>
     </div>
   </section>
-  <section class="about-us pt-[150px] lg:pt-[250px] pb-0 lg:pb-[100px] overflow-hidden">
-    <div class="container pb-[100px]">
+  <section class="about-us pt-[150px] lg:pt-[250px] pb-11 lg:pb-[100px] overflow-hidden">
+    <div class="container pb-14 lg:pb-[100px]">
       <div class="text-wrap flex lg:flex-row flex-col justify-between items-center gap-5 mb-20 lg:mb-40">
         <div class="flex-col justify-start items-start gap-[5px] flex max-w-[490px]">
           <div class="text-secondary-300 text-xs lg:text-sm font-semibold font-jakarta uppercase tracking-wider">How it works</div>
@@ -101,7 +111,7 @@
         </div>
         <div class="max-w-[482.89px] lg:text-right text-white text-sm lg:text-lg font-medium font-jakarta leading-[140%]">Founded by a team of visionary experts in AI and cryptocurrency, Cubic Solutions has been at the forefront of revolutionizing Bitcoin mining since</div>
       </div>
-      <div class="justify-center items-center gap-20 lg:gap-[23px] flex flex-col lg:flex-row">
+      <div class="justify-between items-center gap-20 lg:gap-[23px] flex flex-col lg:flex-row">
         <div class="relative flex flex-col justify-end">
           <div class="flex-col justify-start items-start flex px-[51px] py-[60px] gap-12 absolute">
             <div id="lottie-connect"></div>
@@ -134,8 +144,8 @@
         </div>
       </div>
     </div>
-    <div class="separators"></div>
-    <div class="videos container py-[100px]">
+    <div class="separators "></div>
+    <div class="videos container py-20 lg:py-[100px]">
       <div class="img-wrap">
         <img src="/assets/images/video-thumbnail.png" alt="">
       </div>
@@ -147,14 +157,54 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide"><img src="/assets/images/svg/logo-square-cash.svg" alt=""></div>
-          <div class="swiper-slide"><img src="/assets/images/svg/logo-cashapp.svg" alt=""></div>
-          <div class="swiper-slide"><img src="/assets/images/svg/logo-stripe.svg" alt=""></div>
-          <div class="swiper-slide"><img src="/assets/images/svg/logo-coinbase.svg" alt=""></div>
-          <div class="swiper-slide"><img src="/assets/images/svg/logo-zelle.svg" alt=""></div>
-          <div class="swiper-slide"><img src="/assets/images/svg/logo-revolute.svg" alt=""></div>
-          <div class="swiper-slide"><img src="/assets/images/svg/logo-wise.svg" alt=""></div>
-          <div class="swiper-slide"><img src="/assets/images/svg/logo-klarna.svg" alt=""></div>
+          <div class="swiper-slide">
+            <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+              <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+              <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+              <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+              <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+              <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+              <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+              <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+              <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+              <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+              <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+              <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+              <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+              <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+              <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+              <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+              <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+            </div>
+          </div>
         </div>
         
       </div>
@@ -162,19 +212,59 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper">
           <!-- Slides -->
-          <div class="swiper-slide"><img src="/assets/images/svg/logo-square-cash.svg" alt=""></div>
-          <div class="swiper-slide"><img src="/assets/images/svg/logo-cashapp.svg" alt=""></div>
-          <div class="swiper-slide"><img src="/assets/images/svg/logo-stripe.svg" alt=""></div>
-          <div class="swiper-slide"><img src="/assets/images/svg/logo-coinbase.svg" alt=""></div>
-          <div class="swiper-slide"><img src="/assets/images/svg/logo-zelle.svg" alt=""></div>
-          <div class="swiper-slide"><img src="/assets/images/svg/logo-revolute.svg" alt=""></div>
-          <div class="swiper-slide"><img src="/assets/images/svg/logo-wise.svg" alt=""></div>
-          <div class="swiper-slide"><img src="/assets/images/svg/logo-klarna.svg" alt=""></div>
+          <div class="swiper-slide">
+            <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+              <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+              <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+              <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+              <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+              <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+              <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+              <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+              <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+              <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+              <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+              <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+              <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+              <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+              <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+              <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+              <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
+            </div>
+          </div>
         </div>
         
       </div>
     </div>
-    <div class="our-services container pt-[100px]">
+    <div class="our-services container pt-10 lg:pt-[100px]">
       <div class="flex flex-col lg:flex-row justify-between">
         <div class="text-wrap">
           <div class="flex-col justify-start items-start gap-[5px] flex max-w-[486px] mb-10 lg:mb-[60px]">
@@ -228,15 +318,21 @@
             </button>
           </div>
         </div>
-        <div id="lottie-services"></div>
+        <div id="lottie-services" class="max-w-[638px]"></div>
       </div>
     </div>
   </section>
-  <section class="mining-pool py-[100px]">
-    <div class="container">
-      <div class="text-white text-[28px] lg:text-[42px] font-normal font-anton uppercase leading-[50.40px] mb-[30px]">Qubic mining block</div>
-      <div class="flex items-center relative">
-        <div class="txt-box relative max-w-[200px] lg:max-w-full w-auto min-w-[200px]">
+  <section class="mining-pool pb-10 lg:pb-[100px] relative">
+    <div class="hidden md:block absolute z-[-1] right-0">
+      <img src="/assets/images/bg-mining.png" alt="">
+    </div>
+    <div class="container pt-10 lg:pt-[100px] relative">
+      <div class="md:hidden absolute z-[-1] right-0">
+        <img src="/assets/images/bg-mining.png" alt="">
+      </div>
+      <div class="text-white text-[28px] lg:text-[42px] font-normal font-anton uppercase leading-[50.40px] mb-5 lg:mb-[30px]">Qubic mining block</div>
+      <div class="flex items-center">
+        <div class="txt-box relative max-w-[200px] lg:max-w-[384px] w-auto min-w-[200px]">
           <img src="/assets/images/img-rect.png" alt="">
           <div class="txt-wrap absolute top-0 z-10 py-[22px] lg:py-14 px-[29px] lg:px-[47px]">
             <div class="text-primary-400 text-xs lg:text-base font-medium font-jakarta leading-snug mb-4 lg:mb-10">19-08-2023  15.10</div>
@@ -256,7 +352,7 @@
             </div>
           </div>
         </div>
-        <div class="txt-mining p-5 lg:p-[50px] flex justify-between lg:gap-[42px] relative top-5 z-20 -ml-[70px] lg:-ml-[100px] max-w-[235px] lg:max-w-none overflow-x-scroll">
+        <div class="txt-mining p-5 lg:p-[50px] flex justify-between lg:gap-[42px] relative top-5 z-20 -ml-[70px] lg:-ml-[100px]  overflow-x-scroll">
           <div class="flex-col justify-start items-start gap-[30px] lg:gap-[50px] flex shrink-0">
             <div class="flex-col justify-start items-start gap-[5px] flex">
               <div class="text-col-primary text-base lg:text-2xl font-bold font-jakarta leading-[140%]">45646</div>
@@ -315,10 +411,10 @@
       </div>
     </div>
   </section>
-  <section class="contact-us py-[100px]">
+  <section class="contact-us py-[60px] lg:py-[100px]">
     <div class="container">
-      <div class="flex flex-col lg:flex-row items-center">
-        <div id="lottie-contact"></div>
+      <div class="flex flex-col lg:flex-row items-center gap-3.5">
+        <div id="lottie-contact" class="scale-150 lg:scale-100 relative -z-10"></div>
         <div class="txt-wrap">
           <div class="max-w-[486px] text-white text-[40px] lg:text-[80px] font-normal font-anton uppercase leading-[120%] mb-[30px] lg:mb-[54px]">
             <span class="">Reach Out for Inquiries</span>
@@ -337,18 +433,19 @@
     </div>
   </section>
   <section class="footer py-10 lg:py-[70px]">
-    <div class="container max-w-[1187px]">
-      <div class="img-wrap mb-[15px] lg:mb-[30px]">
-        <img src="/assets/images/svg/img-logo-footer.svg" alt="">
+    <div class="container w-[95%] lg:w-auto max-w-[1187px]">
+      <div class="img-wrap flex items-center gap-2 mb-[15px] lg:mb-[30px]">
+        <img src="/assets/images/svg/logo-qubic-white.svg" class="" alt="Qubicsolutions Logo">
+        <div class="text-white text-xl font-extrabold font-jakarta hidden lg:block">Qubic.Solutions</div>
       </div>
       <div class="flex flex-col lg:flex-row justify-between">
         <div class="max-w-[386px] text-white text-sm lg:text-lg font-medium font-jakarta leading-[140%]">At Cubic Solutions, we merge the potential of artificial intelligence with the world of Bitcoin mining, paving the way for efficiency, innovation, and sustainable growth.</div>
         <div class="max-w-[614px] grow hidden lg:grid grid-cols-3 text-xl font-semibold font-jakarta leading-normal gap-[100px]">
           <a href="" class="text-col-secondary hover:text-white hover:underline" aria-current="">About Us</a>
-          <a href="" class="text-col-secondary hover:text-white hover:underline">Buy Solutions</a>
           <a href="" class="text-col-secondary hover:text-white hover:underline">Product</a>
-          <a href="" class="text-col-secondary hover:text-white hover:underline">Download</a>
           <a href="" class="text-col-secondary hover:text-white hover:underline">Contact</a>
+          <a href="" class="text-col-secondary hover:text-white hover:underline">Buy Solutions</a>
+          <a href="" class="text-col-secondary hover:text-white hover:underline">Download</a>
         </div>
       </div>
       <div class="txt-wrap mt-10 lg:mt-0 mb-[60px] lg:mb-[49px]">
@@ -360,12 +457,18 @@
         </div>
         <div class="text-white text-base lg:text-2xl font-bold font-jakarta leading-[140%]">Info@Qubicsolutions.com</div>
       </div>
-      <div class="max-w-[614px] grow grid lg:hidden grid-cols-3 text-sm font-semibold font-jakarta leading-normal gap-[60px] mb-[49px]">
-        <a href="" class="text-col-secondary hover:text-white hover:underline" aria-current="">About Us</a>
-        <a href="" class="text-col-secondary hover:text-white hover:underline">Buy Solutions</a>
-        <a href="" class="text-col-secondary hover:text-white hover:underline">Product</a>
-        <a href="" class="text-col-secondary hover:text-white hover:underline">Download</a>
-        <a href="" class="text-col-secondary hover:text-white hover:underline">Contact</a>
+      <div class="max-w-[614px] grow flex lg:hidden justify-between text-sm font-semibold font-jakarta leading-normal gap-[60px] mb-[49px]">
+        <div class="txt-wrap grid grid-cols-1 gap-[60px]">
+          <a href="" class="text-col-secondary hover:text-white hover:underline" aria-current="">About Us</a>
+          <a href="" class="text-col-secondary hover:text-white hover:underline">Buy Solutions</a>
+        </div>
+        <div class="txt-wrap grid grid-cols-1 gap-[60px]">
+          <a href="" class="text-col-secondary hover:text-white hover:underline">Product</a>
+          <a href="" class="text-col-secondary hover:text-white hover:underline">Download</a>
+        </div>
+        <div class="txt-wrap grid grid-cols-1 gap-[60px]">
+          <a href="" class="text-col-secondary hover:text-white hover:underline">Contact</a>
+        </div>
       </div>
       <div class="line h-[2px] bg-violet-200 mb-5 lg:mb-[35px]"></div>
       <div class="trademark text-center">

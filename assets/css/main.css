@@ -6,9 +6,15 @@
   body{
     background: linear-gradient(180deg, #0C0C0F 0%, #0B0C0C 100%);
   }
-  .container{
-    width: 90% !important;
+  section{
+    @apply overflow-hidden
   }
+  .container{
+    width: 95% !important;
+  }
+  /* .footer .container{
+    width: 95% !important;
+  } */
   .navbar.active{
     background: rgba(59, 48, 157, 0.20);
     backdrop-filter: blur(5px);
@@ -57,7 +63,7 @@
   }
   .separators{
     background-image: url('/assets/images/svg/img-separators.svg');
-    @apply h-[286px] w-full bg-repeat-x
+    @apply h-[118px] lg:h-[286px] w-full bg-repeat-x bg-cover
   }
   .cta-page{
     /* fill: var(--gradient-gradient-01, linear-gradient(117deg, #DB94FD -10.25%, #4A37F8 116.34%)); */
