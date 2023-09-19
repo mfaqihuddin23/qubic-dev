@@ -4,6 +4,13 @@ const swiper = new Swiper('.swiper', {
   loop: true,
   slidesPerView: 6,
   spaceBetween: 150,
+  breakpoints: {
+    // when window width is >= 640px
+    1024: {
+    slidesPerView: 6,
+    spaceBetween: 100
+    },
+  },
   autoplay: {
     delay: 1,
     disableOnInteraction: false
@@ -20,6 +27,13 @@ const swiper1 = new Swiper('.swiper1', {
   loop: true,
   slidesPerView: 6,
   spaceBetween: 150,
+  breakpoints: {
+    // when window width is >= 640px
+    1024: {
+    slidesPerView: 6,
+    spaceBetween: 100
+    },
+  },
   autoplay: {
     delay: 1,
     reverseDirection: true,
