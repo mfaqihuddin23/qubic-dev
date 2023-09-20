@@ -704,20 +704,16 @@ section.footer{
   right: 0px;
 }
 
+.right-\[5\%\] {
+  right: 5%;
+}
+
 .top-0 {
   top: 0px;
 }
 
 .top-5 {
   top: 1.25rem;
-}
-
-.right-\[5\%\] {
-  right: 5%;
-}
-
-.top-\[50px\] {
-  top: 50px;
 }
 
 .top-6 {
@@ -960,6 +956,10 @@ section.footer{
 
 .max-w-\[638px\] {
   max-width: 638px;
+}
+
+.max-w-\[500px\] {
+  max-width: 500px;
 }
 
 .shrink-0 {
@@ -1272,6 +1272,10 @@ section.footer{
   padding-bottom: 3.5rem;
 }
 
+.pt-0 {
+  padding-top: 0px;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -1282,10 +1286,6 @@ section.footer{
 
 .pt-\[150px\] {
   padding-top: 150px;
-}
-
-.pt-0 {
-  padding-top: 0px;
 }
 
 .text-center {
@@ -1484,14 +1484,6 @@ section.footer{
 }
 
 @media (min-width: 768px) {
-  .md\:block {
-    display: block;
-  }
-
-  .md\:hidden {
-    display: none;
-  }
-
   .md\:max-w-\[480px\] {
     max-width: 480px;
   }
