@@ -930,16 +930,16 @@ section.footer{
   max-width: 470px;
 }
 
-.max-w-\[482\.89px\] {
-  max-width: 482.89px;
-}
-
 .max-w-\[486px\] {
   max-width: 486px;
 }
 
 .max-w-\[490px\] {
   max-width: 490px;
+}
+
+.max-w-\[500px\] {
+  max-width: 500px;
 }
 
 .max-w-\[522px\] {
@@ -956,10 +956,6 @@ section.footer{
 
 .max-w-\[638px\] {
   max-width: 638px;
-}
-
-.max-w-\[500px\] {
-  max-width: 500px;
 }
 
 .shrink-0 {

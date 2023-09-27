@@ -31,14 +31,14 @@ lottie.loadAnimation({
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: '/assets/animations/our_service.json' // the path to the animation json
+  path: '/assets/animations/our_service_1.json' // the path to the animation json
 });
 lottie.loadAnimation({
   container: document.getElementById("lottie-contact"), // the dom element that will contain the animation
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: '/assets/animations/contact_us.json' // the path to the animation json
+  path: '/assets/animations/contact_us_1.json' // the path to the animation json
 });
 
 document.addEventListener("DOMContentLoaded", function() {
