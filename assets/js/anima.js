@@ -3,14 +3,14 @@ lottie.loadAnimation({
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: '/assets/animations/hero-animation.json' // the path to the animation json
+  path: '/assets/animations/Qubic Header illustration FIX 2.json' // the path to the animation json
 });
 lottie.loadAnimation({
   container: document.getElementById("lottie-connect"), // the dom element that will contain the animation
   renderer: 'svg',
   loop: true,
   autoplay: true,
-  path: '/assets/animations/anim-connect.json' // the path to the animation json
+  path: '/assets/animations/1. Connect 2.json' // the path to the animation json
 });
 lottie.loadAnimation({
   container: document.getElementById("lottie-mine"), // the dom element that will contain the animation
